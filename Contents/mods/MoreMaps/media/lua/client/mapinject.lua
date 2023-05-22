@@ -32,15 +32,15 @@ local function initRoadMapStyle(mapUI)
 
 	styleAPI:clear()
 
-	local layer = styleAPI:newPolygonLayer("forest")
-	layer:setMinZoom(13.5)
-	layer:setFilter("natural", "forest")
-	layer:addFill(MINZ, 189, 197, 163, 0)
-	layer:addFill(13.5, 189, 197, 163, 0)
-	layer:addFill(14, 189, 197, 163, 255)
-	layer:addFill(MAXZ, 189, 197, 163, 255)
+	-- local layer = styleAPI:newPolygonLayer("forest")
+	-- layer:setMinZoom(13.5)
+	-- layer:setFilter("natural", "forest")
+	-- layer:addFill(MINZ, 189, 197, 163, 0)
+	-- layer:addFill(13.5, 189, 197, 163, 0)
+	-- layer:addFill(14, 189, 197, 163, 255)
+	-- layer:addFill(MAXZ, 189, 197, 163, 255)
 	
-	layer = styleAPI:newPolygonLayer("water")
+	local layer = styleAPI:newPolygonLayer("water")
 	layer:setMinZoom(MINZ)
 	layer:setFilter("water", "river")
 	layer:addFill(MINZ, 59, 141, 149, 255)
@@ -137,11 +137,16 @@ local function initRoadMapStyle(mapUI)
 end
 
 LootMaps.Init.RoadMapSW = function(mapUI)
+	local x1 = cellSize * 41;
+	local y1 = cellSize * 13;
+	local x2 = cellSize * 50;
+	local y2 = cellSize * 25;
+
 	local mapAPI = mapUI.javaObject:getAPIv1()
 	MapUtils.initDirectoryMapData(mapUI, 'media/maps/Muldraugh, KY')
 	initRoadMapStyle(mapUI)
 	-- replaceWaterStyle(mapUI)
-	mapAPI:setBoundsInSquares(0, 0, cellSize * 40, cellSize * 40);
+	mapAPI:setBoundsInSquares(x1, y1, x2, y2);
 	-- mapAPI:setBoundsInCells(3, 2, 3, 4);
 	-- overlayPNG(mapUI, 6155, 5053, 0.385, "badge", "media/textures/worldMap/RiversideBadge.png")
 	-- overlayPNG(mapUI, 6500, 5062, 0.385, "legend", "media/textures/worldMap/Legend2.png")
