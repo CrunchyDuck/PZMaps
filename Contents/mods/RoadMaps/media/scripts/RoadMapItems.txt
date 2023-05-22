@@ -1,0 +1,171 @@
+module CD {
+    imports {
+        Base
+    }
+/**
+    item RoadMapBigE
+    {
+        DisplayCategory = Cartography,
+        Type = Map,
+        DisplayName = Road Map East,
+        Icon = Map,
+        Weight = 0.1,
+        Map = RoadMapBigE,
+        WorldStaticModel = Map,
+    }
+
+    item RoadMapBigCenter
+    {
+        DisplayCategory = Cartography,
+        Type = Map,
+        DisplayName = Road Map Center,
+        Icon = Map,
+        Weight = 0.1,
+        Map = RoadMapBigCenter,
+        WorldStaticModel = Map,
+    }
+
+    item RoadMapBigS
+    {
+        DisplayCategory = Cartography,
+        Type = Map,
+        DisplayName = Road Map South,
+        Icon = Map,
+        Weight = 0.1,
+        Map = RoadMapBigS,
+        WorldStaticModel = Map,
+    }
+
+    item RoadMapBigW
+    {
+        DisplayCategory = Cartography,
+        Type = Map,
+        DisplayName = Road Map West,
+        Icon = Map,
+        Weight = 0.1,
+        Map = RoadMapBigW,
+        WorldStaticModel = Map,
+    }
+**/
+
+    item RoadMapLouisville
+    {
+        DisplayCategory = Cartography,
+        Type = Map,
+        DisplayName = Louisville Road Map,
+        Icon = Map,
+        Weight = 0.1,
+        Map = RoadMapLouisville,
+        WorldStaticModel = Map,
+    }
+
+    item RoadMapValleyStation
+    {
+        DisplayCategory = Cartography,
+        Type = Map,
+        DisplayName = Valley Station Road Map,
+        Icon = Map,
+        Weight = 0.1,
+        Map = RoadMapValleyStation,
+        WorldStaticModel = Map,
+    }
+
+    item RoadMapWestPoint
+    {
+        DisplayCategory = Cartography,
+        Type = Map,
+        DisplayName = West Point Road Map,
+        Icon = Map,
+        Weight = 0.1,
+        Map = RoadMapWestPoint,
+        WorldStaticModel = Map,
+    }
+
+    item RoadMapMarchRidge
+    {
+        DisplayCategory = Cartography,
+        Type = Map,
+        DisplayName = March Ridge Road Map,
+        Icon = Map,
+        Weight = 0.1,
+        Map = RoadMapMarchRidge,
+        WorldStaticModel = Map,
+    }
+
+    item RoadMapRosewood
+    {
+        DisplayCategory = Cartography,
+        Type = Map,
+        DisplayName = Rosewood Road Map,
+        Icon = Map,
+        Weight = 0.1,
+        Map = RoadMapRosewood,
+        WorldStaticModel = Map,
+    }
+
+    item RoadMapMuldraughEast
+    {
+        DisplayCategory = Cartography,
+        Type = Map,
+        DisplayName = Muldraugh Eastern Road Map,
+        Icon = Map,
+        Weight = 0.1,
+        Map = RoadMapMuldraughEast,
+        WorldStaticModel = Map,
+    }
+
+    item RoadMapMuldraughWest
+    {
+        DisplayCategory = Cartography,
+        Type = Map,
+        DisplayName = Muldraugh Western Road Map,
+        Icon = Map,
+        Weight = 0.1,
+        Map = RoadMapMuldraughWest,
+        WorldStaticModel = Map,
+    }
+
+    item RoadMapRiversideEast
+    {
+        DisplayCategory = Cartography,
+        Type = Map,
+        DisplayName = Riverside Eastern Road Map,
+        Icon = Map,
+        Weight = 0.1,
+        Map = RoadMapRiversideEast,
+        WorldStaticModel = Map,
+    }
+
+    item RoadMapRiversideWest
+    {
+        DisplayCategory = Cartography,
+        Type = Map,
+        DisplayName = Riverside Western Road Map,
+        Icon = Map,
+        Weight = 0.1,
+        Map = RoadMapRiversideWest,
+        WorldStaticModel = Map,
+    }
+
+    item RoadMapDoeValleyWest
+    {
+        DisplayCategory = Cartography,
+        Type = Map,
+        DisplayName = Doe Valley Western Road Map,
+        Icon = Map,
+        Weight = 0.1,
+        Map = RoadMapDoeValleyWest,
+        WorldStaticModel = Map,
+    }
+
+    item RoadMapDoeValleyEast
+    {
+        DisplayCategory = Cartography,
+        Type = Map,
+        DisplayName = Doe Valley Eastern Road Map,
+        Icon = Map,
+        Weight = 0.1,
+        Map = RoadMapDoeValleyEast,
+        WorldStaticModel = Map,
+    }
+}
