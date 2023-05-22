@@ -1,0 +1,16 @@
+module CD {
+    imports {
+        Base
+    }
+    
+    item RoadMapSW
+    {
+        DisplayCategory = Cartography,
+        Type = Map,
+        DisplayName = Road Map SW,
+        Icon = Map,
+        Weight = 0.1,
+        Map = RoadMapSW,
+        WorldStaticModel = Map,
+    }
+}
