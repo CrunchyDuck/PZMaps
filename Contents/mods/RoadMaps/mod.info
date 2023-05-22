@@ -1,5 +1,8 @@
-name=Maps+ - Road Maps
+name=Maps! - Road Maps
 id=CDRoadMaps
 description=I made sure that maps overlapped a bit, and that divides don't pass through places with buildings.
+Road maps are not balanced for use with the auto map! I did try to add options to not reveal the automap with them, but it's hardcoded in java afaik.
+Road maps show much less detail than normal maps. Use a real map to find buildings, or mark buildings you find yourself!
 This codebase was a pleasure to work with :)
+I had considered using a different colour palette for the road maps, but I couldn't find one I liked.
 poster=poster.png
