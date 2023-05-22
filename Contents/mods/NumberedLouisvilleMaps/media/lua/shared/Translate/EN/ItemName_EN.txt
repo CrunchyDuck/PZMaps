@@ -1,0 +1,11 @@
+ItemName_EN = {
+    ItemName_Base.LouisvilleMap1 = "Louisville Map 1",
+    ItemName_Base.LouisvilleMap2 = "Louisville Map 2",
+    ItemName_Base.LouisvilleMap3 = "Louisville Map 3",
+    ItemName_Base.LouisvilleMap4 = "Louisville Map 4",
+    ItemName_Base.LouisvilleMap5 = "Louisville Map 5",
+    ItemName_Base.LouisvilleMap6 = "Louisville Map 6",
+    ItemName_Base.LouisvilleMap7 = "Louisville Map 7",
+    ItemName_Base.LouisvilleMap8 = "Louisville Map 8",
+    ItemName_Base.LouisvilleMap9 = "Louisville Map 9"
+}
