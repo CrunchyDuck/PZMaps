@@ -1,8 +1,4 @@
 name=Maps! - Road Maps
 id=CDRoadMaps
-description=I made sure that maps overlapped a bit, and that divides don't pass through places with buildings.
-Road maps are not balanced for use with the auto map! I did try to add options to not reveal the automap with them, but it's hardcoded in java afaik.
-Road maps show much less detail than normal maps. Use a real map to find buildings, or mark buildings you find yourself!
-This codebase was a pleasure to work with :)
-I had considered using a different colour palette for the road maps, but I couldn't find one I liked.
+description=Adds in 11 new road maps! Road maps are less detailed than normal maps, but cover a much larger area. | Road maps are designed to replace the world map. Using road maps with the world map will reveal huge chunks of land in much more detail than intended. I did try to add options to not reveal the world map with them, but it's hardcoded in java afaik. | You can still use the world map if you want, but that's not my vision for this. Either resist tapping the M button, or disable the world map in the sandbox settings.
 poster=poster.png
